@@ -1,0 +1,35 @@
+*{
+    border: 0;
+    outline: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #494545;
+}
+
+.input__container{
+    margin: 20rem auto;
+    width: 70%;
+    max-width: 60rem;
+    background-color: #fff;
+    display: flex;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
+.input__container input{
+    width: 100%;
+    font-size: 25px;
+}
+
+.fa-solid{
+    font-size: 25px;
+    color: #000;
+    margin: auto;
+    cursor: pointer;
+    padding: 0 0.3rem;
+}
